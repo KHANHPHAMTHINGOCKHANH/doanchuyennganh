@@ -1,0 +1,12 @@
+.btn {
+    width: 500px;
+    height: 500px;
+    color: white;
+    background-color: black;
+}
+::ng-deep .btn {
+    width: 500px;
+    height: 100px !important;
+    color: white;
+    background-color: black;
+}
