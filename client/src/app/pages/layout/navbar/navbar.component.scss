@@ -1,0 +1,49 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: var(--tui-background);
+    justify-content: space-between;
+}
+.logo {
+    color: var(--tui-font);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0 2rem;
+    cursor: pointer;
+
+
+}
+.login {
+    color: var(--tui-font);
+    font-weight: 600;
+    margin: 0 2rem;
+    cursor: pointer;
+
+
+}
+.select {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+button {
+    height: 2rem;
+    color: var(--tui-font);
+    font-weight: 600;
+    margin: 0 2rem;
+    cursor: pointer;
+    text-decoration: none;
+    border: none; /* Loại bỏ viền mặc định của nút */
+    background: transparent; /* Để nút trở thành trong suốt */
+}
+
+.active {
+    border-bottom: 2px solid var(--tui-font); /* Điều chỉnh màu và độ dày theo ý muốn */
+}

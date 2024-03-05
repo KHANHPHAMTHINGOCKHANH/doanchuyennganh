@@ -1,0 +1,13 @@
+<div class="container">
+    <p class="logo" (click)="homeclick()">Logo</p>
+
+    <section class="select">
+        <button (click)="select('menu')" [ngClass]="{'active': selected === 'menu'}">Thực đơn</button>
+        <button (click)="select('booking')" [ngClass]="{'active': selected === 'booking'}">Đặt bàn</button>
+        <button (click)="select('location')" [ngClass]="{'active': selected === 'location'}">Địa điểm</button>
+        <button (click)="select('order')" [ngClass]="{'active': selected === 'order'}">Đặt hàng</button>
+    </section>
+
+    <p class="login">Login</p>
+</div>
+
